@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-28T03:10:39.815Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="96UJ4TZEsWZoqG6IqDl9" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-28T04:41:03.630Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="2vVTmuTice7ByB643CYV" version="22.1.4" type="github">
   <diagram name="Page-1" id="Z21mBP2d0bDcraAdHLnU">
     <mxGraphModel dx="1050" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -154,6 +154,40 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="760" as="sourcePoint" />
             <mxPoint x="500" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ooZNw-VQ2BO_oq2PY-E-59" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;strokeColor=#999999;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="550" y="540" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="4ooZNw-VQ2BO_oq2PY-E-60" value="Reset Password" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.anchor;fontSize=12;fontColor=#666666;align=left;resizeWidth=1;spacingLeft=0;" vertex="1" parent="4ooZNw-VQ2BO_oq2PY-E-59">
+          <mxGeometry width="100" height="20" relative="1" as="geometry">
+            <mxPoint x="10" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ooZNw-VQ2BO_oq2PY-E-61" value="" style="shape=line;strokeColor=#ddeeff;strokeWidth=2;html=1;resizeWidth=1;" vertex="1" parent="4ooZNw-VQ2BO_oq2PY-E-59">
+          <mxGeometry width="180" height="10" relative="1" as="geometry">
+            <mxPoint x="10" y="140" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ooZNw-VQ2BO_oq2PY-E-62" value="User Name:" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.anchor;fontSize=12;fontColor=#666666;align=left;resizeWidth=1;spacingLeft=0;" vertex="1" parent="4ooZNw-VQ2BO_oq2PY-E-59">
+          <mxGeometry width="100" height="20" relative="1" as="geometry">
+            <mxPoint x="10" y="40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ooZNw-VQ2BO_oq2PY-E-63" value="johndoe" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=0;strokeColor=#999999;fontColor=#666666;align=left;spacingLeft=5;resizeWidth=1;" vertex="1" parent="4ooZNw-VQ2BO_oq2PY-E-59">
+          <mxGeometry width="150" height="25" relative="1" as="geometry">
+            <mxPoint x="10" y="60" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ooZNw-VQ2BO_oq2PY-E-66" value="Reset New Password" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=5;strokeColor=none;fontColor=#ffffff;fillColor=#66bbff;fontSize=16;fontStyle=1;" vertex="1" parent="4ooZNw-VQ2BO_oq2PY-E-59">
+          <mxGeometry y="1" width="180" height="30" relative="1" as="geometry">
+            <mxPoint x="10" y="-90" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ooZNw-VQ2BO_oq2PY-E-71" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.774;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4ooZNw-VQ2BO_oq2PY-E-17" target="4ooZNw-VQ2BO_oq2PY-E-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="570" as="sourcePoint" />
+            <mxPoint x="830" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
