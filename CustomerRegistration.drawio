@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-09T22:19:24.317Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="w5ENu72yiaErd-Eq7IHi" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-09T22:19:57.072Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="f8RdN8mYTxv5LNf1Tzxq" version="23.1.1" type="github">
   <diagram name="Page-1" id="Yo5O_kpkniXoqqgbgoUv">
     <mxGraphModel dx="2641" dy="990" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -71,20 +71,6 @@
         </mxCell>
         <mxCell id="VsXlnDVOB-1KHzo_hLlM-22" value="Add-User-to-Group-Lambda" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#ED7100;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.lambda_function;" vertex="1" parent="1">
           <mxGeometry x="1076" y="380" width="69" height="69" as="geometry" />
-        </mxCell>
-        <mxCell id="VsXlnDVOB-1KHzo_hLlM-24" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="410" y="500" as="sourcePoint" />
-            <mxPoint x="490" y="500" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="VsXlnDVOB-1KHzo_hLlM-25" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="410" y="500" as="sourcePoint" />
-            <mxPoint x="490" y="500" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="VsXlnDVOB-1KHzo_hLlM-26" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="VsXlnDVOB-1KHzo_hLlM-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
