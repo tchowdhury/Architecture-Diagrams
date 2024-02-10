@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-09T22:34:33.061Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="V-ELbtH8RCvjY6653XRP" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-10T03:57:06.867Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="v4ZG8X2t3vlI3wRTZlhN" version="23.1.1" type="github">
   <diagram name="Page-1" id="Yo5O_kpkniXoqqgbgoUv">
     <mxGraphModel dx="2641" dy="990" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -170,6 +170,9 @@
             <mxPoint x="288.5" y="330" as="sourcePoint" />
             <mxPoint x="289.5" y="466.0014648010495" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="VsXlnDVOB-1KHzo_hLlM-55" value="&lt;b&gt;&lt;font color=&quot;#000033&quot;&gt;AWS CDK&lt;/font&gt;&lt;/b&gt;" style="sketch=0;outlineConnect=0;fillColor=#d80073;strokeColor=#A50040;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.external_sdk;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="90" y="705.06" width="88" height="100.94" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
