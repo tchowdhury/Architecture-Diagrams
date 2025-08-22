@@ -11,16 +11,71 @@
           <mxGeometry x="80" y="40" width="760" height="400" as="geometry" />
         </mxCell>
         <mxCell id="O__BoMiXWu6asMsOb4TM-3" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;i&gt;&amp;lt;accno&amp;gt;-&amp;lt;client&amp;gt;/upload&lt;/i&gt;&lt;/font&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" vertex="1" parent="O__BoMiXWu6asMsOb4TM-2">
-          <mxGeometry x="240" y="80" width="60" height="60" as="geometry" />
+          <mxGeometry x="290" y="60" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O__BoMiXWu6asMsOb4TM-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="O__BoMiXWu6asMsOb4TM-2" source="O__BoMiXWu6asMsOb4TM-4" target="O__BoMiXWu6asMsOb4TM-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O__BoMiXWu6asMsOb4TM-4" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;i&gt;API Gateway&lt;/i&gt;&lt;/font&gt;" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" vertex="1" parent="O__BoMiXWu6asMsOb4TM-2">
           <mxGeometry x="43" y="164" width="60" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="O__BoMiXWu6asMsOb4TM-9" value="&lt;font style=&quot;font-size: 9px; color: rgb(0, 102, 204);&quot;&gt;&lt;i style=&quot;&quot;&gt;https://xyz../upload&lt;/i&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px; color: rgb(0, 102, 204);&quot;&gt;&lt;i&gt;https://xyz../download&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="O__BoMiXWu6asMsOb4TM-2">
+          <mxGeometry x="43" y="250" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O__BoMiXWu6asMsOb4TM-10" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;i&gt;Lambda&amp;nbsp;&lt;/i&gt;&lt;/font&gt;&lt;i style=&quot;font-size: 9px; background-color: transparent; color: light-dark(rgb(35, 47, 62), rgb(189, 199, 212));&quot;&gt;Authorizer&lt;/i&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.lambda_function;" vertex="1" parent="O__BoMiXWu6asMsOb4TM-2">
+          <mxGeometry x="244" y="164" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O__BoMiXWu6asMsOb4TM-12" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;i&gt;&lt;font style=&quot;&quot;&gt;2. Request lambda to authorize the client&lt;/font&gt;&lt;/i&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;i&gt;&lt;font style=&quot;&quot;&gt;and generate a pre-sign url&lt;/font&gt;&lt;/i&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="O__BoMiXWu6asMsOb4TM-2">
+          <mxGeometry x="110" y="150" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O__BoMiXWu6asMsOb4TM-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="O__BoMiXWu6asMsOb4TM-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="244.00068242305701" y="205" as="sourcePoint" />
+            <mxPoint x="103" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O__BoMiXWu6asMsOb4TM-16" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;i&gt;&lt;font style=&quot;&quot;&gt;3. Return pre-signed url&lt;br&gt;&lt;/font&gt;&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="O__BoMiXWu6asMsOb4TM-2">
+          <mxGeometry x="120" y="210" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="O__BoMiXWu6asMsOb4TM-13" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.addon;direction=west;" vertex="1" parent="O__BoMiXWu6asMsOb4TM-2">
+          <mxGeometry x="2" y="176" width="27.3" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="O__BoMiXWu6asMsOb4TM-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="O__BoMiXWu6asMsOb4TM-1" target="O__BoMiXWu6asMsOb4TM-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="118.30068242305703" y="259" as="sourcePoint" />
+            <mxPoint x="-110" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-60" y="259" />
+              <mxPoint x="-60" y="259" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="O__BoMiXWu6asMsOb4TM-5" value="Client" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.client;" vertex="1" parent="1">
-          <mxGeometry x="40" y="290" width="50.29" height="49" as="geometry" />
+          <mxGeometry x="24" y="290" width="61.58" height="60" as="geometry" />
         </mxCell>
         <mxCell id="O__BoMiXWu6asMsOb4TM-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="O__BoMiXWu6asMsOb4TM-5" target="O__BoMiXWu6asMsOb4TM-4">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="314" />
+              <mxPoint x="140" y="314" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O__BoMiXWu6asMsOb4TM-8" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;i&gt;&lt;font style=&quot;&quot;&gt;1. Client requests for a pre-signed url to upload/download&lt;/font&gt; &lt;font style=&quot;&quot;&gt;file passing a jWT token&lt;/font&gt;&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="280" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O__BoMiXWu6asMsOb4TM-18" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;i&gt;&lt;font style=&quot;&quot;&gt;4. Client Receives pre-signed url&lt;br&gt;&lt;/font&gt;&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="340" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="O__BoMiXWu6asMsOb4TM-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="O__BoMiXWu6asMsOb4TM-5" target="O__BoMiXWu6asMsOb4TM-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="55" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O__BoMiXWu6asMsOb4TM-20" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;&lt;i&gt;&lt;font style=&quot;&quot;&gt;5. Client upload a file&lt;br&gt;&lt;/font&gt;&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="85.58" y="190" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
